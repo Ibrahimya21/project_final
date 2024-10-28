@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>My Portfolio</title>
+    <link rel="icon" href="/images/profile.png" type="image/x-icon" />
+</head>
+
+<body class="bg-gradient-to-r from-purple-500 via-indigo-500 to-blue-500 text-white">
+    <!-- Header -->
+    <header class="sticky top-0 bg-white/80 backdrop-blur-md text-black p-5 shadow-md z-50">
+        <div class="container mx-auto flex justify-between items-center">
+            <div class="md:text-3xl text-xl font-bold">
+                &quot;Ibrahim&quot; Portfolio
+            </div>
+            <nav class="lg:block hidden">
+                <ul class="flex gap-x-8">
+                    <li><a href="#about" class="hover:text-blue-400">About</a></li>
+                    <li>
+                        <a href="#projects" class="hover:text-blue-400">Projects</a>
+                    </li>
+                    <li><a href="#posts" class="hover:text-blue-400">Posts</a></li>
+                    <li><a href="#skills" class="hover:text-blue-400">Skills</a></li>
+                    <li>
+                        <a href="#testimonials" class="hover:text-blue-400">Testimonials</a>
+                    </li>
+                    <li>
+                        <a href="#certifications" class="hover:text-blue-400">Certifications</a>
+                    </li>
+                    <li><a href="#contact" class="hover:text-blue-400">Contact</a></li>
+                </ul>
+            </nav>
+            <img src="../images/menu.png" alt="menu" class="size-9 lg:hidden inline" />
+        </div>
+    </header>
+
+    <section class="p-8 bg-gray-100 text-black flex md:flex-row flex-col items-center justify-center gap-8">
+        <div class="flex flex-col gap-2 text-start justify-center">
+            <h4 class="md:text-5xl text-3xl font-bold">
+                Hello, I'm &quot;Ibrahim&quot;!
+            </h4>
+            <p class="text-xl mt-4">
+                A passionate developer building awesome projects.
+            </p>
+        </div>
+        <div class="bg-red-500 rounded-full overflow-hidden w-fit h-fit">
+            <img src="../images/profile.png" alt="profile-image" width="400" />
+        </div>
+    </section>
+
+    <!-- About Me -->
+    <section id="about" class="container mx-auto p-8">
+        <h2 class="text-4xl font-bold text-center mb-10">About Me</h2>
+        <p class="text-center text-lg">
+            I’m a web developer with a focus on creating clean and user-friendly
+            applications. With a passion for learning and exploring new
+            technologies, I aim to deliver the best experience through my projects.
+        </p>
+    </section>
+
+    <!-- My Projects -->
+    <section id="projects" class="bg-white text-black p-8">
+        <div class="container mx-auto">
+            <h2 class="text-4xl font-bold text-center mb-10">My Projects</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="bg-gray-100 p-4 rounded-lg shadow-lg hover:shadow-xl hover:scale-105 transform transition duration-500 card">
+                    <img src="../images/project1.png" alt="Project 1" class="mb-4 w-full rounded-t-lg" />
+                    <h3 class="text-2xl font-semibold">Project 1</h3>
+                    <p>A description of the project goes here.</p>
+                </div>                
+                <div class="bg-gray-100 p-4 rounded-lg shadow-lg hover:shadow-xl hover:scale-105 transform transition duration-500 card">
+                    <img src="../images/project2.png" alt="Project 1" class="mb-4 w-full rounded-t-lg" />
+                    <h3 class="text-2xl font-semibold">Project 2</h3>
+                    <p>A description of the project goes here.</p>
+                </div>
+                <div class="bg-gray-100 p-4 rounded-lg shadow-lg hover:shadow-xl hover:scale-105 transform transition duration-500 card">
+                    <img src="../images/project3.png" alt="Project 1" class="mb-4 w-full rounded-t-lg" />
+                    <h3 class="text-2xl font-semibold">Project 3</h3>
+                    <p>A description of the project goes here.</p>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+    <!-- My Posts -->
+    <section id="posts" class="p-8">
+        <div class="container mx-auto">
+            <h2 class="text-4xl font-bold text-center mb-10">My Posts</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <div class="bg-gray-100 text-black p-5 rounded shadow-lg flex flex-col justify-between">
+                    <img src="../images/post1.png" alt="Post 1" class="mb-4 w-full" />
+                    <div>
+                        <h3 class="text-2xl font-semibold">Post 1</h3>
+                        <p>A brief overview of the blog post goes here.</p>
+                    </div>
+                </div>
+                <div class="bg-gray-100 text-black p-5 rounded shadow-lg flex flex-col justify-between">
+                    <img src="../images/post2.png" alt="Post 2" class="mb-4 w-full" />
+                    <div>
+                        <h3 class="text-2xl font-semibold">Post 2</h3>
+                        <p>A brief overview of the blog post goes here.</p>
+                    </div>
+                </div>
+                <div class="bg-gray-100 text-black p-5 rounded shadow-lg flex flex-col justify-between">
+                    <img src="../images/post3.jpeg" alt="Post 3" class="mb-4 w-full" />
+                    <div>
+                        <h3 class="text-2xl font-semibold">Post 3</h3>
+                        <p>A brief overview of the blog post goes here.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Skills -->
+    <section id="skills" class="bg-white text-black p-8">
+        <div class="container mx-auto">
+            <h2 class="text-4xl font-bold text-center mb-10">Skills</h2>
+            <div class="flex md:flex-row flex-col justify-center gap-4">
+                <span class="bg-purple-300 py-2 px-4 rounded-lg shadow-md">HTML</span>
+                <span class="bg-blue-300 py-2 px-4 rounded-lg shadow-md">CSS</span>
+                <span class="bg-yellow-300 py-2 px-4 rounded-lg shadow-md">JavaScript</span>
+                <span class="bg-green-300 py-2 px-4 rounded-lg shadow-md">React</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section id="testimonials" class="p-8 bg-gray-100 text-black">
+        <div class="container mx-auto">
+            <h2 class="text-4xl font-bold text-center mb-10">Testimonials</h2>
+            <div class="flex justify-center flex-wrap gap-4">
+                <div class="text-center border-2 bg-white flex item-start p-4 gap-4">
+                    <img src="../images/user1.png" alt="User 1" class="size-14 rounded-full mx-auto mb-4" />
+                    <div class="flex text-start flex-col gap-2">
+                        <p>"Great to work with! Highly recommend their services."</p>
+                        <span>- User 1</span>
+                    </div>
+                </div>
+                <div class="text-center border-2 bg-white flex item-start p-4 gap-4">
+                    <img src="../images/user2.png" alt="User 2" class="size-14 rounded-full mx-auto mb-4" />
+                    <div class="flex text-start flex-col gap-2">
+                        <p>"Delivered high-quality work on time. Will hire again!"</p>
+                        <span>- User 2</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certifications -->
+    <section id="certifications" class="p-8">
+        <div class="container mx-auto">
+            <h2 class="text-4xl font-bold text-center mb-10">Certifications</h2>
+            <div class="flex md:flex-row flex-col justify-center gap-4">
+                <div class="bg-white p-4 rounded-lg shadow-md flex flex-col items-center flex-1 gap-4 text-center justify-between">
+                    <h4 class="text-black font-bold text-2xl">FrontEnd Developer</h4>
+                    <img src="../images/certification1.png" class="w-full" alt="Certification 1" />
+                </div>
+                <div class="bg-white p-4 rounded-lg shadow-md flex flex-col item-center flex-1 gap-4 text-center justify-between">
+                    <h4 class="text-black font-bold text-2xl">FrontEnd Developer</h4>
+                    <img src="../images/certification2.png" class="w-full" alt="Certification 2" />
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="p-8">
+        <div class="container mx-auto">
+            <h2 class="text-4xl font-bold text-center mb-10">Contact Me</h2>
+            <form class="max-w-lg mx-auto bg-white p-8 rounded-lg shadow-md">
+                <div class="mb-6">
+                    <label class="block text-black mb-2" for="name">Name</label>
+                    <input type="text" id="name" class="w-full p-3 rounded border text-black" placeholder="Your Name" />
+                </div>
+                <div class="mb-6">
+                    <label class="block text-black mb-2" for="email">Email</label>
+                    <input type="email" id="email" class="w-full p-3 rounded border text-black"
+                        placeholder="Your Email" />
+                </div>
+                <div class="mb-6">
+                    <label class="block text-black mb-2" for="message">Message</label>
+                    <textarea id="message" class="w-full p-3 rounded text-black border" rows="5"
+                        placeholder="Your Message"></textarea>
+                </div>
+                <button type="submit" class="w-full bg-gradient-to-r from-blue-500 to-purple-500 hover:from-purple-500 hover:to-blue-500 text-white p-3 rounded transition duration-300">
+                    Send Message
+                </button>
+            </form>
+        </div>
+    </section>
+    <footer class="bg-black text-center p-4">
+        <p class="text-white">© 2021 My Portfolio. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
